@@ -4,6 +4,7 @@ import heroimg from '../src/assets/Research.png'
 import chat from '../src/assets/Chat.png'
 import jwelleries from '../src/assets/jwellery.png'
 import Security from '../src/assets/Security.png'
+import photograph from '../src/assets/photograph.jpg'
 
 
 function App() {
@@ -11,8 +12,16 @@ function App() {
     <div>
       <nav className='bg-slate-300 h-20 fixed  shadow-md w-full px-6 py-2'>
         <div class="container mx-auto flex justify-between items-center px-5">
-          <h1 class="text-xl font-bold pl-180 my-5">SEJAL SHARMA</h1>
-          <ul class="flex space-x-4">
+          <div className="flex items-center space-x-4">
+            <img
+              src={photograph}
+              className="h-24 w-24 rounded-full border-2 border-orange-500 object-cover"
+              alt="Profile"
+            />
+            <h1 className="text-xl font-bold text-left">SEJAL SHARMA</h1>
+          </div>
+
+          <ul class="flex space-x-10">
             <li><a href="#" class="hover:text-orange-500 font-bold">Home</a></li>
             <li><a href="#about" class="hover:text-orange-500 font-bold">About</a></li>
             <li><a href="#projects" class="hover:text-orange-500 font-bold">Projects</a></li>
@@ -129,7 +138,7 @@ function App() {
 
       <section class="py-16 bg-white text-center">
 
-        <h2 id="projects"class="text-4xl font-bold text-gray-900 mb-2">PROJECTS</h2>
+        <h2 id="projects" class="text-4xl font-bold text-gray-900 mb-2">PROJECTS</h2>
         <div class="w-16 h-1 bg-orange-500 mx-auto mb-4 rounded"></div>
 
 
