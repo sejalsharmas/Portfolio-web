@@ -44,7 +44,7 @@ function App() {
       </section>
 
       <section class="bg-gray-50 py-16 px-6 md:px-20">
-        <h2 class="text-4xl font-bold text-center text-gray-900 mb-2">ABOUT ME</h2>
+        <h2 id="about" class="text-4xl font-bold text-center text-gray-900 mb-2">ABOUT ME</h2>
         <hr className='w-16 border-t-4 border-orange-500 mx-auto my-2'></hr>
         <p class="text-center text-gray-700 text-lg mb-12">
           Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
@@ -129,7 +129,7 @@ function App() {
 
       <section class="py-16 bg-white text-center">
 
-        <h2 class="text-4xl font-bold text-gray-900 mb-2">PROJECTS</h2>
+        <h2 id="projects"class="text-4xl font-bold text-gray-900 mb-2">PROJECTS</h2>
         <div class="w-16 h-1 bg-orange-500 mx-auto mb-4 rounded"></div>
 
 
@@ -145,7 +145,7 @@ function App() {
             <div class="bg-orange-400 p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">WorkZone</h3>
               <p class="text-sm text-gray-800 mb-4">
-               WorkZone is a webApp created using React and Chatgpt api it is a job centric platform
+                WorkZone is a webApp created using React and Chatgpt api it is a job centric platform
               </p>
               <div class="flex justify-center gap-4">
                 <a href="https://github.com/sejalsharmas/icp8.0-reactjs-group-project-4" class="bg-orange-100 text-orange-900 px-4 py-2 rounded shadow hover:bg-orange-500 border-t-2 border-orange-900">Code</a>
@@ -156,7 +156,7 @@ function App() {
 
 
           <div class="bg-white rounded-xl shadow-md overflow-hidden border">
-            <img src={Security}  class="w-full h-60 object-contain p-4" />
+            <img src={Security} class="w-full h-60 object-contain p-4" />
             <div class="bg-orange-400 p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Kavach kritis</h3>
               <p class="text-sm text-gray-800 mb-4">
@@ -164,7 +164,7 @@ function App() {
               </p>
               <div class="flex justify-center gap-4">
                 <a href="https://github.com/sejalsharmas/Kavach-Kritis-App" class="bg-orange-100 text-orange-900 px-4 py-2 rounded shadow hover:bg-orange-500 border-t-2 border-orange-900">Code</a>
-               
+
               </div>
             </div>
           </div>
@@ -175,7 +175,7 @@ function App() {
             <div class="bg-orange-400 p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Jwellerie Collection</h3>
               <p class="text-sm text-gray-800 mb-4">
-                  This is A Full Stack Website Made using MERN Stack thi website contains jwelleries in gold and silver.
+                This is A Full Stack Website Made using MERN Stack thi website contains jwelleries in gold and silver.
               </p>
               <div class="flex justify-center gap-4">
                 <a href="https://github.com/sejalsharmas/jwellery-backend" class="bg-orange-100 text-orange-900 px-4 py-2 rounded shadow hover:bg-orange-500 border-t-2 border-orange-900">Code</a>
@@ -186,6 +186,14 @@ function App() {
         </div>
       </section>
 
+
+      <section id="contact" class="container  p-6 text-center bg-slate-200">
+        <h2 class="text-2xl font-bold text-orange-500">Contact Me</h2>
+        <p class="mt-4">Email: sejalsharmaany@gmail.com</p>
+      </section>
+      <footer class="bg-orange-500 text-white text-center py-4 ">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      </footer>
 
 
     </div>
