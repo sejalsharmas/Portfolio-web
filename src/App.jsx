@@ -13,10 +13,10 @@ function App() {
         <div class="container mx-auto flex justify-between items-center px-5">
           <h1 class="text-xl font-bold pl-180 my-5">SEJAL SHARMA</h1>
           <ul class="flex space-x-4">
-            <li><a href="#" class="hover:text-gray-300 font-bold">Home</a></li>
-            <li><a href="#about" class="hover:text-gray-300 font-bold">About</a></li>
-            <li><a href="#projects" class="hover:text-gray-300 font-bold">Projects</a></li>
-            <li><a href="#contact" class="hover:text-gray-300 font-bold">Contact</a></li>
+            <li><a href="#" class="hover:text-orange-500 font-bold">Home</a></li>
+            <li><a href="#about" class="hover:text-orange-500 font-bold">About</a></li>
+            <li><a href="#projects" class="hover:text-orange-500 font-bold">Projects</a></li>
+            <li><a href="#contact" class="hover:text-orange-500 font-bold">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -189,7 +189,7 @@ function App() {
 
       <section id="contact" class="container  p-6 text-center bg-slate-200">
         <h2 class="text-2xl font-bold text-orange-500">Contact Me</h2>
-        <p class="mt-4">Email: sejalsharmaany@gmail.com</p>
+        <p class="mt-4">Email: sejalsharmaany@gmail.com || Contact No: 9021830161</p>
       </section>
       <footer class="bg-orange-500 text-white text-center py-4 ">
         <p>&copy; 2025 My Portfolio. All rights reserved.</p>
