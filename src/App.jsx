@@ -42,7 +42,7 @@ function App() {
           </p>
           <div class="flex justify-center md:justify-center gap-4">
             <a href={resume} class="bg-orange-500 text-white font-semibold px-6 py-2 rounded hover:bg-orange-600 transition">Resume</a>
-            <a href="#contact" class="border border-orange-500 text-orange-500 font-semibold px-6 py-2 rounded hover:bg-blue-50 transition">Hire Me</a>
+            <a href="#contact" class="border border-orange-500 text-orange-500 font-semibold px-6 py-2 rounded hover:bg-blue-50 transition">Contact Me</a>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ function App() {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 
           <div class="bg-white shadow-md rounded-xl p-6 space-y-6">
-            <h3 class="text-2xl font-bold text-center text-gray-900">GET KNOW TO ME</h3>
+            <h3 class="text-2xl font-bold text-center text-gray-900">GET TO KNOW ME</h3>
             <div class="border-t-2 border-orange-500 w-1/5 mx-auto mb-4"></div>
             <button class="bg-orange-500 text-white font-semibold px-6 py-2 rounded text-sm mx-auto block  hover:bg-orange-600 transition">EDUCATION</button>
 
